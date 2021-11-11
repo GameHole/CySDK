@@ -1,0 +1,14 @@
+/Temp
+/.vs
+/Library
+/Logs
+/obj
+/Packages
+/*.csproj
+/*.apk
+/*.sln
+/*.zip
+/cutit-ios
+/APKS
+/Assets/Resources
+/Assets/Plugins
