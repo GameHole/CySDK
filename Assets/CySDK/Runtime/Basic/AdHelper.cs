@@ -62,6 +62,8 @@ public class AdHelper
               );
 
             GameObject BuildModeController = new GameObject("PayAdObject");
+            BuildModeController.hideFlags = HideFlags.HideAndDontSave;
+            UnityEngine.Object.DontDestroyOnLoad(BuildModeController);
             BuildModeController.AddComponent<AndroidLibCallback>();
         }
     }

@@ -84,12 +84,14 @@ namespace CySDK
             bool isReward;
             public void onClose()
             {
+                //Debug.Log($"reward ad close");
                 inst.onCloseInternal(isReward);
                 inst.LoadInternal();
             }
 
             public void onShow()
             {
+                //Debug.Log($"reward ad show");
                 isReward = false;
             }
 
@@ -101,6 +103,7 @@ namespace CySDK
 
             public void onUserEarnedReward(int amount, string type)
             {
+                //Debug.Log($"reward ad Earned");
                 isReward = true;
             }
         }

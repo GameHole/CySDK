@@ -18,6 +18,7 @@ namespace CySDK
 
         public void onAdLoaded()
         {
+            //Debug.Log($"onAdLoaded");
             _load?.Invoke(true);
         }
     }
